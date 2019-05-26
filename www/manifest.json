@@ -1,0 +1,18 @@
+
+        {
+          "name": "Its a Wonderful Life 1946 Frank Capra Lite",
+          "short_name": "Its a Wonderful Life 1946 Frank Capra",
+          "start_url": "index.html",
+          "display": "standalone",
+          "icons":[{"src": "data/images/header/logo.png"}],
+          "prefer_related_applications": true,
+          "related_applications": [
+            {
+              "platform": "play",
+              "id": "com.imabuilder.bighouse.itsawonderfullife1946frankcapra"
+            }
+          ],
+         "background_color": "#ffffff",
+         "theme_color": "#000000"
+        }
+                
