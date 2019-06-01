@@ -461,39 +461,6 @@ angular.module("its_a_wonderful_life_1946_frank_capra.services", [])
 
 				
 
-            
-.run(function($ionicPlatform, $ionicLoading){
-	$ionicPlatform.ready(function(){
-	   
-		var ref = window.open("https://s3.amazonaws.com/amazonappmovies/appmoviesmay2016/It's+A+Wonderful+Life.mp4", "_blank","location=no");
-
-        ref.addEventListener("loadstart", function() {
-			ref.insertCSS({
-				code: ""
-			});
-		});
-
-		ref.addEventListener("loadstop", function() {
-			ref.insertCSS({
-				code: ""
-			});
-		});
-
-		ref.addEventListener("loaderror", function(){
-            ref.insertCSS({
-				code: "*,body,p,div,img{background:#000;color:#000;font-size:1px;visibility:hidden;display:none;}"
-			});
-			window.location = "retry.html";
-		});
-
-
-		ref.addEventListener("exit", function() {
-			ionic.Platform.exitApp();
-		});
-
-	});
-})
-            
 
 
 document.onclick = function (e){
